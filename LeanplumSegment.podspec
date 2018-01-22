@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LeanplumSegment"
-  s.version          = "1.1.2"
+  s.version          = "1.1.3"
   s.summary          = "Leanplum SDK integration for the Segment iOS & tvOS SDKs."
   s.description      = "Mobile A/B testing, personalization & analytics in one powerful platform."
   s.homepage         = 'https://www.leanplum.com'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc     = true
 
-  s.source           = { :git => "https://github.com/Leanplum/Leanplum-Segment-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/fubotv/Leanplum-Segment-iOS.git" }
 
   s.source_files     = 'Pod/Classes/**/*'
 
