@@ -7,7 +7,7 @@
 
 #import <Analytics/SEGAnalytics.h>
 #import <Foundation/Foundation.h>
-#import <Leanplum/Leanplum.h>
+@import LeanplumTV;
 
 @interface SEGLeanplumIntegration : NSObject <SEGIntegration>
 
