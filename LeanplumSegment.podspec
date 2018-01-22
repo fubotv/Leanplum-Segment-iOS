@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Leanplum' => 'support@leanplum.com' }
   s.social_media_url = 'https://twitter.com/leanplum'
   s.platform         = :ios, '8.0'
+  s.platform         = :tvos, '10.0'
   s.requires_arc     = true
 
   s.source           = { :git => "https://github.com/Leanplum/Leanplum-Segment-iOS.git", :tag => s.version.to_s }
