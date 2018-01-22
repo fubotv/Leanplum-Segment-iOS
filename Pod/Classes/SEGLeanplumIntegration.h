@@ -7,7 +7,12 @@
 
 #import <Analytics/SEGAnalytics.h>
 #import <Foundation/Foundation.h>
-@import LeanplumTV;
+
+#if TARGET_OS_IOS
+  #import <Leanplum/Leanplum.h>
+#else
+  @import LeanplumTV;
+#endif
 
 @interface SEGLeanplumIntegration : NSObject <SEGIntegration>
 
