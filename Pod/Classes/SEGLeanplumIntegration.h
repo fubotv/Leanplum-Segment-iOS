@@ -11,7 +11,7 @@
 #if TARGET_OS_IOS
   #import <Leanplum/Leanplum.h>
 #else
-  @import LeanplumTV;
+  #import <LeanplumTV/Leanplum.h>
 #endif
 
 @interface SEGLeanplumIntegration : NSObject <SEGIntegration>
